@@ -86,5 +86,5 @@ resource "google_compute_instance_from_template" "instancewithtemplate" {
 
   // Override fields from instance template
   can_ip_forward = false
-  
+  # comment
 }
